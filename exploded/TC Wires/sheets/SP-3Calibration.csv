@@ -1,6 +1,6 @@
 ,CAL DATE:,2022-12-22 00:00:00,DUE:,2023-12-22 00:00:00,,,,mvDC,°F,,,,,,
-,,,,,,32°F,Icebath,31.778,"=IF(H2<>'Update Standards'!I18,32,'ST-7'!B35)",32,,,,,
-,,,,,,,SP-2,0.0001,"=IF(H2<>'Update Standards'!I18,'Type S'!B1511+formulas!A96,'Type S'!B1511)",=J3-J2+K2,,,,,
+,,,,,,32°F,Icebath,31.778,"=IF(TRUE,32,'ST-7'!B35)",32,,,,,
+,,,,,,,SP-2,0.0001,"=IF(TRUE,'Type S'!B1511+formulas!A96,'Type S'!B1511)",=J3-J2+K2,,,,,
 ,,mvDC,°F,,,,,,,,,,,,
 -50°F,PRT (in °F),,=C5,-50,,200°F,ST-7,0.5933,='ST-7'!B28,200,NOTE: PRINT CERT USING PAGE 43.,,,,
 ,TTS-1,,='Type T'!B6,=D6-C5+E5,,,SP-2,0.5923,='Type S'!B1512,=J6-J5+K5,,,,,
